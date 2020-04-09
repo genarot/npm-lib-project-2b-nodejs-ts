@@ -1,0 +1,34 @@
+{
+  "name": "gtinoco-npm-lib-project-2b-nodejs-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genarot/npm-lib-project-2b-nodejs-ts.git"
+  },
+  "keywords": [
+    "convert",
+    "nodejs",
+    "node-ts",
+    "math",
+    "learning"
+  ],
+  "author": "Genaro Tinoco <genaro_13@hotmail.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/genarot/npm-lib-project-2b-nodejs-ts/issues"
+  },
+  "homepage": "https://github.com/genarot/npm-lib-project-2b-nodejs-ts#readme",
+  "dependencies": {
+    "gtinoco-npm-lib-project-1a-math": "github:genarot/npm-lib-project-1a-math"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1"
+  }
+}
